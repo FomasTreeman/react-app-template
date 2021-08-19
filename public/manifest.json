@@ -1,6 +1,10 @@
 {
   "short_name": "test",
+<<<<<<< HEAD
   "name": "react app",
+=======
+  "name": "example routing",
+>>>>>>> 54fc725f4f48d2e7b2119345fb7cfbaff82ce45e
   
   "start_url": "./index.html",
   "display": "standalone"
