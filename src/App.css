@@ -18,6 +18,13 @@ body {
    margin: 10px;
 }
 
+#no_chat {
+   position: absolute;
+   margin: 42%;
+   margin-top: 40vh;
+   white-space:nowrap;
+}
+
 #divider {
    margin: 0;
    border-top: 1px solid rgb(167, 166, 166);
@@ -37,6 +44,25 @@ body {
    background-color: darkslateblue;
 }
 
+.btn-success {
+   border-radius: 50% !important;
+   margin-left: 2% !important;
+ }
+
+ #form { 
+   display: flex;
+   margin-right: auto;
+   margin-left: 4%;
+}
+
+#loginReg {
+   position: absolute;
+   width: 100%;
+   bottom: 1%;
+   display: flex;
+   justify-content:space-between;
+}
+
 #offcanvasFooter {
    display: flex;
    bottom: 0px; 
@@ -54,6 +80,9 @@ body {
    align-items: center;
 }
 
+#friendsList > .btn {
+   margin-left: auto;}
+
 #friendsName {
    padding-left: 7% !important;
 }
@@ -61,6 +90,11 @@ body {
 #messagesContainer {
    padding-bottom: 80px !important;
    padding-top: 25px !important;
+}
+
+#recipient {
+   font-size: small;
+   opacity: 0.7;
 }
 
 #toastContainer {
@@ -73,6 +107,11 @@ body {
 
 #toastHead {
    background-color: rgb(41, 67, 67);
+}
+
+.modal-content {
+   background-color: hotpink !important;
+   opacity: 0.9;
 }
 
 #right-side, #left-side {
@@ -96,4 +135,12 @@ body {
    position: fixed;
    bottom: 0px;
    background-color: rgb(41, 41, 41);
+}
+
+#loginBTNs {
+   display: flex;
+}
+
+#loginBTNs > .btn-primary  {
+   margin-left: auto;
 }

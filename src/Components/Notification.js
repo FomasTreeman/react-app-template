@@ -1,6 +1,6 @@
 import { Toast } from 'react-bootstrap'
 
-export default function Notifications(RemoveToast, index) {
+export default function Notification(RemoveToast, index) {
     return (
         <Toast key={index} onClose={() => RemoveToast(index)} className="p-3" id="toast">
             <Toast.Header id="toastHead">
